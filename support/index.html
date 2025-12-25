@@ -1,47 +1,122 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>サポート | Arise（禁欲チャレンジ）</title>
-    <style>
-      :root { color-scheme: light dark; }
-      body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 0; padding: 0; }
-      main { max-width: 860px; margin: 0 auto; padding: 32px 20px; }
-      .card { border: 1px solid rgba(127,127,127,.3); border-radius: 12px; padding: 16px; margin: 12px 0; }
-      code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
-      a { text-decoration: none; }
-      a:hover { text-decoration: underline; }
-    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>サポートガイド | 禁欲チャレンジ</title>
+    <link rel="stylesheet" href="../assets/styles.css" />
   </head>
   <body>
-    <main>
-      <p><a href="../">← トップ</a></p>
-      <h1>サポート</h1>
+    <div class="page">
+      <main class="shell">
+        <div class="badges">
+          <span class="badge">Support</span>
+          <span class="badge">FAQ</span>
+        </div>
+        <h1>サポートガイド</h1>
+        <p class="lead">
+          禁欲チャレンジに関するお問い合わせ・不具合報告の方法、よくある質問をまとめています。
+          解決しない場合はメールでお気軽にご連絡ください。
+        </p>
 
-      <div class="card">
-        <h2>お問い合わせ</h2>
-        <p>アプリ内の「お問い合わせ」からご連絡ください。</p>
-        <p>メール: <a href="mailto:kinyoku.app.team@gmail.com">kinyoku.app.team@gmail.com</a></p>
-      </div>
+        <section class="card">
+          <h2>お問い合わせ窓口</h2>
+          <p>
+            メール: <a href="mailto:kinyoku.app.team@gmail.com">kinyoku.app.team@gmail.com</a><br />
+            受付時間: 平日 9:00 - 18:00（祝日・年末年始を除く）
+          </p>
+          <p class="muted">
+            原則 2 営業日以内に返信いたします。返信が届かない場合は迷惑メールフォルダをご確認ください。
+          </p>
+        </section>
 
-      <div class="card">
-        <h2>よくある質問</h2>
-        <ul>
-          <li>ログインメールが届かない → 迷惑メール/受信拒否設定を確認し、数分待ってから再送してください。</li>
-          <li>アプリが動かない → アプリを再起動し、最新版へ更新してください。</li>
-        </ul>
-      </div>
+        <section>
+          <h2 class="section-title">お問い合わせ前のチェックリスト</h2>
+          <ol class="list">
+            <li>アプリを最新バージョンへアップデート</li>
+            <li>端末のOSアップデートと再起動</li>
+            <li>通信環境（Wi-Fi / モバイルデータ）の切り替え</li>
+            <li>サインアウトのうえ再度ログイン</li>
+          </ol>
+          <p class="muted">解決しない場合は以下の情報を添えてご連絡ください。</p>
+          <ul class="list">
+            <li>発生した画面と操作手順</li>
+            <li>ご利用端末名とOSバージョン</li>
+            <li>アプリのバージョン（App Store / Google Play の情報）</li>
+            <li>スクリーンショット、エラーメッセージ</li>
+          </ul>
+        </section>
 
-      <div class="card">
-        <h2>不具合報告のコツ</h2>
-        <ul>
-          <li>発生日時</li>
-          <li>端末（iPhoneの機種名 / iOSバージョン）</li>
-          <li>どの画面で何をしたか</li>
-          <li>スクショ（可能なら）</li>
-        </ul>
-      </div>
-    </main>
+        <section>
+          <h2 class="section-title">お問い合わせ分類</h2>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>カテゴリ</th>
+                <th>主な内容</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>アカウント・課金</td>
+                <td>登録・ログイン、サブスクリプション、レシートの再送</td>
+              </tr>
+              <tr>
+                <td>不具合報告</td>
+                <td>画面表示の崩れ、機能が動作しない、通知が届かない など</td>
+              </tr>
+              <tr>
+                <td>改善要望</td>
+                <td>機能追加リクエスト、翻訳の改善、デザイン調整</td>
+              </tr>
+              <tr>
+                <td>個人情報・セキュリティ</td>
+                <td>データ削除依頼、情報の開示・訂正・利用停止</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section>
+          <h2 class="section-title">よくある質問</h2>
+          <dl class="faq">
+            <dt>Q. アプリが起動しない / 画面が真っ白になる</dt>
+            <dd>
+              A. 端末の再起動、最新OSへの更新、アプリの再インストールをお試しください。
+              それでも改善しない場合は手順と発生時刻をお知らせください。
+            </dd>
+          </dl>
+          <dl class="faq">
+            <dt>Q. プレミアム課金が反映されない</dt>
+            <dd>
+              A. App Store / Google Play の購入履歴に残っているかをご確認のうえ、
+              「購入を復元」ボタンを押してください。レシートが確認できるスクショをいただけると調査がスムーズです。
+            </dd>
+          </dl>
+          <dl class="faq">
+            <dt>Q. データを引き継ぎたい</dt>
+            <dd>
+              A. 同じメールアドレスでログインいただければ、記録とサブスクリプションを共有できます。
+              別アカウントからの統合はサポート窓口までご相談ください。
+            </dd>
+          </dl>
+          <dl class="faq">
+            <dt>Q. データ削除を依頼したい</dt>
+            <dd>
+              A. アカウントに登録しているメールアドレスからご連絡ください。本人確認後、速やかに削除を実施し結果をご報告します。
+            </dd>
+          </dl>
+        </section>
+
+        <section>
+          <h2 class="section-title">関連リンク</h2>
+          <div class="footer-nav">
+            <a href="../privacy/">プライバシーポリシー</a>
+            <a href="../terms/">利用規約</a>
+            <a href="mailto:kinyoku.app.team@gmail.com">メールで問い合わせる</a>
+          </div>
+        </section>
+      </main>
+    </div>
   </body>
 </html>
